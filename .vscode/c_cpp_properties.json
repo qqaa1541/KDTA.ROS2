@@ -1,0 +1,12 @@
+{
+    "configurations";[
+        {
+        "name": "KDTA.ROS2",
+        "includepath"; [
+            "/usr/include/**"
+        ],
+        }
+    ],
+
+
+}
