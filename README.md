@@ -34,4 +34,6 @@ trackBartest2.cpp
 mouseRGBPoint.cpp
 
 ch05
-
+histoGram.cpp
+histoGramEqualization.cpp
+brightness.cpp

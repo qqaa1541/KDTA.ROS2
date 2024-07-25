@@ -8,7 +8,6 @@ String folder = "/home/pdy/KDTA.ROS2/opencv/data/";
 int main()
 {
     Mat src = imread(folder + "lenna.bmp", IMREAD_GRAYSCALE);
-    src = src + (src - 125) * 1.0;
     Mat histo;
     int channels[] = {0};
     int dims = 1;
