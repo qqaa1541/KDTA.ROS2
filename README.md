@@ -31,5 +31,7 @@ maskSetTo.cpp
 mousetest.cpp
 trackBarTest.cpp
 trackBartest2.cpp
+mouseRGBPoint.cpp
 
+ch05
 
