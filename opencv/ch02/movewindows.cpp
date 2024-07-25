@@ -3,7 +3,7 @@
 
 using namespace std;
 using namespace cv;
-string folder = "/home/KDTA.ROS2/opencv/data";
+string folder = "/home/pdy/KDTA.ROS2/opencv/data";
 
 int main()
 {
@@ -11,9 +11,9 @@ int main()
     img = imread(folder + "lena.bmp");
     namedWindow("lena");
     imshow("lena", img);
-    while (waitkey(0) != -1)
+    while (waitKey(0) != -1)
     {
-        // int key = waitkey(0);
+        // int key = waitKey(0);
         cout << "aaa" << endl;
         moveWindow("lena", 50, 0);
     }

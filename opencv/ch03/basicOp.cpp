@@ -4,7 +4,7 @@
 
 using namespace cv;
 
-String folder = "/home/KDTA.ROS2/opencv/data/";
+String folder = "/home/pdy/KDTA.ROS2/opencv/data/";
 
 int main()
 {
