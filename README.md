@@ -44,3 +44,9 @@ blur.cpp
 filter2D.cpp
 gaussianFilter.cpp
 shapen.cpp
+
+#2024 7 26
+
+ch08
+affine.cpp
+affineLotation.cpp
