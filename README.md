@@ -50,3 +50,9 @@ shapen.cpp
 ch08
 affine.cpp
 affineLotation.cpp
+perspectiveCard.cpp
+perspectiveTransform.cpp
+
+ch09
+canny.cpp
+houghline.cpp
