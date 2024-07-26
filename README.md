@@ -37,3 +37,10 @@ ch05
 histoGram.cpp
 histoGramEqualization.cpp
 brightness.cpp
+
+ch07
+bilateralFilter.cpp
+blur.cpp
+filter2D.cpp
+gaussianFilter.cpp
+shapen.cpp
