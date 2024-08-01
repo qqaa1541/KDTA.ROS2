@@ -56,3 +56,8 @@ perspectiveTransform.cpp
 ch09
 canny.cpp
 houghline.cpp
+
+#2024 7 30
+start ROS2
+install ROS2
+MAKE PACKAGE
