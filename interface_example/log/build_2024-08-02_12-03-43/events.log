@@ -1,0 +1,511 @@
+[0.000000] (-) TimerEvent: {}
+[0.007766] (interface_example) JobQueued: {'identifier': 'interface_example', 'dependencies': OrderedDict()}
+[0.011437] (interface_example) JobStarted: {'identifier': 'interface_example'}
+[0.061770] (interface_example) JobProgress: {'identifier': 'interface_example', 'progress': 'cmake'}
+[0.080258] (interface_example) Command: {'cmd': ['/usr/bin/cmake', '/home/pdy/KDTA.ROS2/interface_example/msg_svr_action_interface_example', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/pdy/KDTA.ROS2/interface_example/install/interface_example'], 'cwd': '/home/pdy/KDTA.ROS2/interface_example/build/interface_example', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'pdy'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pdy'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/pdy/KDTA.ROS2'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1459'), ('SYSTEMD_EXEC_PID', '1617'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '80252'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pdy/kdta_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pdy'), ('_colcon_de_root', '/home/pdy/robot_ws/install'), ('JOURNAL_STREAM', '8:36693'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pdy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pdy-virtual-machine:@/tmp/.ICE-unix/1584,unix/pdy-virtual-machine:/tmp/.ICE-unix/1584'), ('INVOCATION_ID', 'f499241b8bcb4713b0291e8fa5d9b36c'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CEBLR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-090ba38e39.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '8'), ('AMENT_PREFIX_PATH', '/home/pdy/kdta_ws/install/turtlebot3_fake_node:/home/pdy/kdta_ws/install/simple_pkg_cpp:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pdy/KDTA.ROS2/interface_example/build/interface_example'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pdy/kdta_ws/install/turtlebot3_fake_node:/home/pdy/kdta_ws/install/simple_pkg_cpp:/opt/ros/humble')]), 'shell': False}
+[0.100013] (-) TimerEvent: {}
+[0.200627] (-) TimerEvent: {}
+[0.301384] (-) TimerEvent: {}
+[0.336151] (interface_example) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.401955] (-) TimerEvent: {}
+[0.508522] (-) TimerEvent: {}
+[0.610305] (-) TimerEvent: {}
+[0.701671] (interface_example) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.711197] (-) TimerEvent: {}
+[0.729592] (interface_example) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.817922] (-) TimerEvent: {}
+[0.920514] (-) TimerEvent: {}
+[1.023850] (-) TimerEvent: {}
+[1.040480] (interface_example) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.073213] (interface_example) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.074865] (interface_example) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.078547] (interface_example) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.092664] (interface_example) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.124256] (-) TimerEvent: {}
+[1.240269] (-) TimerEvent: {}
+[1.351572] (-) TimerEvent: {}
+[1.456171] (-) TimerEvent: {}
+[1.489920] (interface_example) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.511866] (interface_example) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.512787] (interface_example) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.514009] (interface_example) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.531083] (interface_example) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.557719] (-) TimerEvent: {}
+[1.658727] (-) TimerEvent: {}
+[1.763468] (-) TimerEvent: {}
+[1.873748] (-) TimerEvent: {}
+[1.975591] (-) TimerEvent: {}
+[2.076611] (-) TimerEvent: {}
+[2.186718] (-) TimerEvent: {}
+[2.242837] (interface_example) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.287818] (-) TimerEvent: {}
+[2.403510] (-) TimerEvent: {}
+[2.500309] (interface_example) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.503997] (-) TimerEvent: {}
+[2.607434] (-) TimerEvent: {}
+[2.638617] (interface_example) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.648772] (interface_example) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.679265] (interface_example) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.709151] (-) TimerEvent: {}
+[2.810046] (-) TimerEvent: {}
+[2.836340] (interface_example) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.911517] (-) TimerEvent: {}
+[3.018551] (-) TimerEvent: {}
+[3.119580] (-) TimerEvent: {}
+[3.231976] (-) TimerEvent: {}
+[3.340348] (-) TimerEvent: {}
+[3.441876] (-) TimerEvent: {}
+[3.546731] (-) TimerEvent: {}
+[3.647730] (-) TimerEvent: {}
+[3.796730] (-) TimerEvent: {}
+[3.900764] (-) TimerEvent: {}
+[3.914902] (interface_example) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[4.001817] (-) TimerEvent: {}
+[4.105142] (-) TimerEvent: {}
+[4.217242] (-) TimerEvent: {}
+[4.319681] (-) TimerEvent: {}
+[4.424515] (-) TimerEvent: {}
+[4.530736] (-) TimerEvent: {}
+[4.631435] (-) TimerEvent: {}
+[4.703244] (interface_example) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.745623] (-) TimerEvent: {}
+[4.847206] (-) TimerEvent: {}
+[4.961218] (-) TimerEvent: {}
+[5.062601] (-) TimerEvent: {}
+[5.176337] (-) TimerEvent: {}
+[5.279336] (-) TimerEvent: {}
+[5.385873] (-) TimerEvent: {}
+[5.486905] (-) TimerEvent: {}
+[5.590062] (-) TimerEvent: {}
+[5.690991] (-) TimerEvent: {}
+[5.735424] (interface_example) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.796436] (-) TimerEvent: {}
+[5.800503] (interface_example) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[5.813423] (interface_example) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[5.898062] (-) TimerEvent: {}
+[5.913409] (interface_example) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[5.913827] (interface_example) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.914007] (interface_example) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[5.914166] (interface_example) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[5.991361] (interface_example) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[6.005720] (-) TimerEvent: {}
+[6.111379] (-) TimerEvent: {}
+[6.206552] (interface_example) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.211852] (-) TimerEvent: {}
+[6.271405] (interface_example) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.320038] (-) TimerEvent: {}
+[6.367832] (interface_example) StdoutLine: {'line': b'-- Generating done\n'}
+[6.380097] (interface_example) StdoutLine: {'line': b'-- Build files have been written to: /home/pdy/KDTA.ROS2/interface_example/build/interface_example\n'}
+[6.404062] (interface_example) CommandEnded: {'returncode': 0}
+[6.405894] (interface_example) JobProgress: {'identifier': 'interface_example', 'progress': 'build'}
+[6.409150] (interface_example) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pdy/KDTA.ROS2/interface_example/build/interface_example', '--', '-j2', '-l2'], 'cwd': '/home/pdy/KDTA.ROS2/interface_example/build/interface_example', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'pdy'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pdy'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/pdy/KDTA.ROS2'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1459'), ('SYSTEMD_EXEC_PID', '1617'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '80252'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pdy/kdta_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pdy'), ('_colcon_de_root', '/home/pdy/robot_ws/install'), ('JOURNAL_STREAM', '8:36693'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pdy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pdy-virtual-machine:@/tmp/.ICE-unix/1584,unix/pdy-virtual-machine:/tmp/.ICE-unix/1584'), ('INVOCATION_ID', 'f499241b8bcb4713b0291e8fa5d9b36c'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CEBLR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-090ba38e39.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '8'), ('AMENT_PREFIX_PATH', '/home/pdy/kdta_ws/install/turtlebot3_fake_node:/home/pdy/kdta_ws/install/simple_pkg_cpp:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pdy/KDTA.ROS2/interface_example/build/interface_example'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pdy/kdta_ws/install/turtlebot3_fake_node:/home/pdy/kdta_ws/install/simple_pkg_cpp:/opt/ros/humble')]), 'shell': False}
+[6.422758] (-) TimerEvent: {}
+[6.524057] (-) TimerEvent: {}
+[6.624869] (-) TimerEvent: {}
+[6.676404] (interface_example) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[6.725881] (-) TimerEvent: {}
+[6.827514] (-) TimerEvent: {}
+[6.928616] (-) TimerEvent: {}
+[7.029212] (-) TimerEvent: {}
+[7.133153] (-) TimerEvent: {}
+[7.234369] (-) TimerEvent: {}
+[7.335423] (-) TimerEvent: {}
+[7.436603] (-) TimerEvent: {}
+[7.538676] (-) TimerEvent: {}
+[7.639771] (-) TimerEvent: {}
+[7.741010] (-) TimerEvent: {}
+[7.757096] (interface_example) StdoutLine: {'line': b'[  3%] Built target interface_example__cpp\n'}
+[7.824060] (interface_example) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[7.848732] (-) TimerEvent: {}
+[7.953094] (-) TimerEvent: {}
+[8.054651] (-) TimerEvent: {}
+[8.157337] (-) TimerEvent: {}
+[8.258830] (-) TimerEvent: {}
+[8.361398] (-) TimerEvent: {}
+[8.462481] (-) TimerEvent: {}
+[8.563262] (-) TimerEvent: {}
+[8.665956] (-) TimerEvent: {}
+[8.769780] (-) TimerEvent: {}
+[8.870865] (-) TimerEvent: {}
+[8.971887] (-) TimerEvent: {}
+[9.068311] (interface_example) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/interface_example__rosidl_generator_c.dir/rosidl_generator_c/interface_example/srv/detail/add_two_int__functions.c.o\x1b[0m\n'}
+[9.072746] (-) TimerEvent: {}
+[9.173600] (-) TimerEvent: {}
+[9.274748] (-) TimerEvent: {}
+[9.384988] (-) TimerEvent: {}
+[9.486289] (-) TimerEvent: {}
+[9.491264] (interface_example) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking C shared library libinterface_example__rosidl_generator_c.so\x1b[0m\n'}
+[9.587004] (-) TimerEvent: {}
+[9.688277] (-) TimerEvent: {}
+[9.699657] (interface_example) StdoutLine: {'line': b'[ 12%] Built target interface_example__rosidl_generator_c\n'}
+[9.788643] (-) TimerEvent: {}
+[9.845767] (interface_example) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_symlink_interface_example\n'}
+[9.889185] (-) TimerEvent: {}
+[9.894960] (interface_example) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[9.989374] (-) TimerEvent: {}
+[10.090498] (-) TimerEvent: {}
+[10.191973] (-) TimerEvent: {}
+[10.292772] (-) TimerEvent: {}
+[10.393457] (-) TimerEvent: {}
+[10.494333] (-) TimerEvent: {}
+[10.597989] (-) TimerEvent: {}
+[10.664523] (interface_example) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/interface_example__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_example/srv/add_two_int__type_support.cpp.o\x1b[0m\n'}
+[10.698322] (-) TimerEvent: {}
+[10.800055] (-) TimerEvent: {}
+[10.902567] (-) TimerEvent: {}
+[11.004416] (-) TimerEvent: {}
+[11.106243] (-) TimerEvent: {}
+[11.207052] (-) TimerEvent: {}
+[11.308563] (-) TimerEvent: {}
+[11.409467] (-) TimerEvent: {}
+[11.510412] (-) TimerEvent: {}
+[11.613337] (-) TimerEvent: {}
+[11.715322] (-) TimerEvent: {}
+[11.821159] (-) TimerEvent: {}
+[11.876540] (interface_example) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking CXX shared library libinterface_example__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[11.922785] (-) TimerEvent: {}
+[12.023574] (-) TimerEvent: {}
+[12.024286] (interface_example) StdoutLine: {'line': b'[ 22%] Built target interface_example__rosidl_typesupport_cpp\n'}
+[12.063171] (interface_example) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[12.124372] (-) TimerEvent: {}
+[12.226916] (-) TimerEvent: {}
+[12.328689] (-) TimerEvent: {}
+[12.429612] (-) TimerEvent: {}
+[12.530758] (-) TimerEvent: {}
+[12.632923] (-) TimerEvent: {}
+[12.734832] (-) TimerEvent: {}
+[12.842570] (-) TimerEvent: {}
+[12.902065] (interface_example) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/interface_example__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface_example/srv/detail/add_two_int__type_support_c.cpp.o\x1b[0m\n'}
+[12.943260] (-) TimerEvent: {}
+[13.045833] (-) TimerEvent: {}
+[13.147537] (-) TimerEvent: {}
+[13.248256] (-) TimerEvent: {}
+[13.349320] (-) TimerEvent: {}
+[13.453476] (-) TimerEvent: {}
+[13.554429] (-) TimerEvent: {}
+[13.655729] (-) TimerEvent: {}
+[13.757031] (-) TimerEvent: {}
+[13.857899] (-) TimerEvent: {}
+[13.959157] (-) TimerEvent: {}
+[14.060740] (-) TimerEvent: {}
+[14.161552] (-) TimerEvent: {}
+[14.262345] (-) TimerEvent: {}
+[14.335715] (interface_example) StdoutLine: {'line': b'[ 32%] \x1b[32m\x1b[1mLinking CXX shared library libinterface_example__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[14.364173] (-) TimerEvent: {}
+[14.464789] (-) TimerEvent: {}
+[14.565719] (-) TimerEvent: {}
+[14.666539] (-) TimerEvent: {}
+[14.667810] (interface_example) StdoutLine: {'line': b'[ 32%] Built target interface_example__rosidl_typesupport_fastrtps_c\n'}
+[14.698286] (interface_example) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[14.769482] (-) TimerEvent: {}
+[14.873256] (-) TimerEvent: {}
+[14.979008] (-) TimerEvent: {}
+[15.088235] (-) TimerEvent: {}
+[15.196313] (-) TimerEvent: {}
+[15.306312] (-) TimerEvent: {}
+[15.413684] (-) TimerEvent: {}
+[15.514379] (-) TimerEvent: {}
+[15.608798] (interface_example) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/interface_example__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface_example/srv/detail/add_two_int__type_support.c.o\x1b[0m\n'}
+[15.615462] (-) TimerEvent: {}
+[15.718131] (-) TimerEvent: {}
+[15.765942] (interface_example) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking C shared library libinterface_example__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[15.827523] (-) TimerEvent: {}
+[15.919998] (interface_example) StdoutLine: {'line': b'[ 41%] Built target interface_example__rosidl_typesupport_introspection_c\n'}
+[15.934509] (-) TimerEvent: {}
+[15.956998] (interface_example) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[16.040671] (-) TimerEvent: {}
+[16.142867] (-) TimerEvent: {}
+[16.243452] (-) TimerEvent: {}
+[16.361435] (-) TimerEvent: {}
+[16.465369] (-) TimerEvent: {}
+[16.567128] (-) TimerEvent: {}
+[16.669443] (-) TimerEvent: {}
+[16.770912] (-) TimerEvent: {}
+[16.869409] (interface_example) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/interface_example__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface_example/srv/add_two_int__type_support.cpp.o\x1b[0m\n'}
+[16.872001] (-) TimerEvent: {}
+[16.976303] (-) TimerEvent: {}
+[17.028792] (interface_example) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libinterface_example__rosidl_typesupport_c.so\x1b[0m\n'}
+[17.084171] (-) TimerEvent: {}
+[17.191410] (-) TimerEvent: {}
+[17.251670] (interface_example) StdoutLine: {'line': b'[ 51%] Built target interface_example__rosidl_typesupport_c\n'}
+[17.293008] (-) TimerEvent: {}
+[17.305424] (interface_example) StdoutLine: {'line': b'[ 54%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[17.393811] (-) TimerEvent: {}
+[17.496386] (-) TimerEvent: {}
+[17.604285] (-) TimerEvent: {}
+[17.711216] (-) TimerEvent: {}
+[17.817877] (-) TimerEvent: {}
+[17.926196] (-) TimerEvent: {}
+[18.035493] (-) TimerEvent: {}
+[18.139686] (-) TimerEvent: {}
+[18.241296] (-) TimerEvent: {}
+[18.241785] (interface_example) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/interface_example__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface_example/srv/detail/dds_fastrtps/add_two_int__type_support.cpp.o\x1b[0m\n'}
+[18.355011] (-) TimerEvent: {}
+[18.463286] (-) TimerEvent: {}
+[18.574759] (-) TimerEvent: {}
+[18.675771] (-) TimerEvent: {}
+[18.776823] (-) TimerEvent: {}
+[18.880594] (-) TimerEvent: {}
+[19.004113] (-) TimerEvent: {}
+[19.110730] (-) TimerEvent: {}
+[19.219540] (-) TimerEvent: {}
+[19.328738] (-) TimerEvent: {}
+[19.434968] (-) TimerEvent: {}
+[19.543973] (-) TimerEvent: {}
+[19.652943] (-) TimerEvent: {}
+[19.759712] (-) TimerEvent: {}
+[19.791918] (interface_example) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libinterface_example__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[19.860059] (-) TimerEvent: {}
+[19.965651] (-) TimerEvent: {}
+[20.048527] (interface_example) StdoutLine: {'line': b'[ 61%] Built target interface_example__rosidl_typesupport_fastrtps_cpp\n'}
+[20.065942] (-) TimerEvent: {}
+[20.078434] (interface_example) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[20.166505] (-) TimerEvent: {}
+[20.267916] (-) TimerEvent: {}
+[20.371055] (-) TimerEvent: {}
+[20.472093] (-) TimerEvent: {}
+[20.598266] (-) TimerEvent: {}
+[20.709099] (-) TimerEvent: {}
+[20.816685] (-) TimerEvent: {}
+[20.923997] (-) TimerEvent: {}
+[21.031627] (-) TimerEvent: {}
+[21.094542] (interface_example) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/interface_example__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface_example/srv/detail/add_two_int__type_support.cpp.o\x1b[0m\n'}
+[21.132337] (-) TimerEvent: {}
+[21.233976] (-) TimerEvent: {}
+[21.338543] (-) TimerEvent: {}
+[21.440927] (-) TimerEvent: {}
+[21.543038] (-) TimerEvent: {}
+[21.644567] (-) TimerEvent: {}
+[21.746811] (-) TimerEvent: {}
+[21.853257] (-) TimerEvent: {}
+[21.954609] (-) TimerEvent: {}
+[22.056599] (-) TimerEvent: {}
+[22.158382] (-) TimerEvent: {}
+[22.259747] (-) TimerEvent: {}
+[22.367581] (-) TimerEvent: {}
+[22.415977] (interface_example) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libinterface_example__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[22.477435] (-) TimerEvent: {}
+[22.585280] (-) TimerEvent: {}
+[22.643380] (interface_example) StdoutLine: {'line': b'[ 70%] Built target interface_example__rosidl_typesupport_introspection_cpp\n'}
+[22.688190] (-) TimerEvent: {}
+[22.789755] (-) TimerEvent: {}
+[22.891921] (-) TimerEvent: {}
+[22.995254] (-) TimerEvent: {}
+[23.096410] (-) TimerEvent: {}
+[23.199162] (-) TimerEvent: {}
+[23.305847] (-) TimerEvent: {}
+[23.413238] (-) TimerEvent: {}
+[23.520134] (-) TimerEvent: {}
+[23.628786] (-) TimerEvent: {}
+[23.706370] (interface_example) StdoutLine: {'line': b'running egg_info\n'}
+[23.707727] (interface_example) StdoutLine: {'line': b'creating interface_example.egg-info\n'}
+[23.708158] (interface_example) StdoutLine: {'line': b'writing interface_example.egg-info/PKG-INFO\n'}
+[23.708564] (interface_example) StdoutLine: {'line': b'writing dependency_links to interface_example.egg-info/dependency_links.txt\n'}
+[23.708959] (interface_example) StdoutLine: {'line': b'writing top-level names to interface_example.egg-info/top_level.txt\n'}
+[23.709322] (interface_example) StdoutLine: {'line': b"writing manifest file 'interface_example.egg-info/SOURCES.txt'\n"}
+[23.716787] (interface_example) StdoutLine: {'line': b"reading manifest file 'interface_example.egg-info/SOURCES.txt'\n"}
+[23.717644] (interface_example) StdoutLine: {'line': b"writing manifest file 'interface_example.egg-info/SOURCES.txt'\n"}
+[23.729692] (-) TimerEvent: {}
+[23.800008] (interface_example) StdoutLine: {'line': b'[ 70%] Built target ament_cmake_python_build_interface_example_egg\n'}
+[23.831052] (-) TimerEvent: {}
+[23.851671] (interface_example) StdoutLine: {'line': b'[ 70%] Built target interface_example\n'}
+[23.931796] (-) TimerEvent: {}
+[23.957032] (interface_example) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[24.046836] (-) TimerEvent: {}
+[24.154090] (-) TimerEvent: {}
+[24.262386] (-) TimerEvent: {}
+[24.370468] (-) TimerEvent: {}
+[24.478183] (-) TimerEvent: {}
+[24.580185] (-) TimerEvent: {}
+[24.681818] (-) TimerEvent: {}
+[24.783373] (-) TimerEvent: {}
+[24.884622] (-) TimerEvent: {}
+[24.987402] (-) TimerEvent: {}
+[25.088249] (-) TimerEvent: {}
+[25.189099] (-) TimerEvent: {}
+[25.298642] (-) TimerEvent: {}
+[25.400723] (-) TimerEvent: {}
+[25.404339] (interface_example) StdoutLine: {'line': b'[ 74%] Built target interface_example__py\n'}
+[25.501003] (-) TimerEvent: {}
+[25.512832] (interface_example) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/interface_example__rosidl_generator_py.dir/rosidl_generator_py/interface_example/srv/_add_two_int_s.c.o\x1b[0m\n'}
+[25.601515] (-) TimerEvent: {}
+[25.702644] (-) TimerEvent: {}
+[25.803584] (-) TimerEvent: {}
+[25.904909] (-) TimerEvent: {}
+[25.977346] (interface_example) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interface_example/libinterface_example__rosidl_generator_py.so\x1b[0m\n'}
+[26.013136] (-) TimerEvent: {}
+[26.123523] (-) TimerEvent: {}
+[26.123963] (interface_example) StdoutLine: {'line': b'[ 80%] Built target interface_example__rosidl_generator_py\n'}
+[26.229411] (-) TimerEvent: {}
+[26.275499] (interface_example) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/interface_example__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interface_example/_interface_example_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[26.337409] (-) TimerEvent: {}
+[26.445429] (-) TimerEvent: {}
+[26.549387] (-) TimerEvent: {}
+[26.652028] (-) TimerEvent: {}
+[26.752748] (-) TimerEvent: {}
+[26.762158] (interface_example) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interface_example/interface_example_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[26.861705] (-) TimerEvent: {}
+[26.966085] (-) TimerEvent: {}
+[26.983771] (interface_example) StdoutLine: {'line': b'[ 87%] Built target interface_example__rosidl_typesupport_fastrtps_c__pyext\n'}
+[27.067223] (-) TimerEvent: {}
+[27.108127] (interface_example) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/interface_example__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interface_example/_interface_example_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[27.170448] (-) TimerEvent: {}
+[27.277687] (-) TimerEvent: {}
+[27.385460] (-) TimerEvent: {}
+[27.457863] (interface_example) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interface_example/interface_example_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[27.485910] (-) TimerEvent: {}
+[27.583025] (interface_example) StdoutLine: {'line': b'[ 93%] Built target interface_example__rosidl_typesupport_introspection_c__pyext\n'}
+[27.586154] (-) TimerEvent: {}
+[27.674623] (interface_example) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/interface_example__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interface_example/_interface_example_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[27.692738] (-) TimerEvent: {}
+[27.800604] (-) TimerEvent: {}
+[27.910061] (-) TimerEvent: {}
+[27.998093] (interface_example) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interface_example/interface_example_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[28.018055] (-) TimerEvent: {}
+[28.119698] (-) TimerEvent: {}
+[28.132937] (interface_example) StdoutLine: {'line': b'[100%] Built target interface_example__rosidl_typesupport_c__pyext\n'}
+[28.189442] (interface_example) CommandEnded: {'returncode': 0}
+[28.221426] (-) TimerEvent: {}
+[28.324237] (-) TimerEvent: {}
+[28.425103] (-) TimerEvent: {}
+[28.481665] (interface_example) JobProgress: {'identifier': 'interface_example', 'progress': 'install'}
+[28.522760] (interface_example) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pdy/KDTA.ROS2/interface_example/build/interface_example'], 'cwd': '/home/pdy/KDTA.ROS2/interface_example/build/interface_example', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'pdy'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pdy'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/pdy/KDTA.ROS2'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1459'), ('SYSTEMD_EXEC_PID', '1617'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '80252'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pdy/kdta_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pdy'), ('_colcon_de_root', '/home/pdy/robot_ws/install'), ('JOURNAL_STREAM', '8:36693'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pdy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pdy-virtual-machine:@/tmp/.ICE-unix/1584,unix/pdy-virtual-machine:/tmp/.ICE-unix/1584'), ('INVOCATION_ID', 'f499241b8bcb4713b0291e8fa5d9b36c'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CEBLR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-090ba38e39.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '8'), ('AMENT_PREFIX_PATH', '/home/pdy/kdta_ws/install/turtlebot3_fake_node:/home/pdy/kdta_ws/install/simple_pkg_cpp:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pdy/KDTA.ROS2/interface_example/build/interface_example'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pdy/kdta_ws/install/turtlebot3_fake_node:/home/pdy/kdta_ws/install/simple_pkg_cpp:/opt/ros/humble')]), 'shell': False}
+[28.553448] (-) TimerEvent: {}
+[28.577142] (interface_example) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[28.582715] (interface_example) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[28.584024] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/share/ament_index/resource_index/rosidl_interfaces/interface_example\n'}
+[28.648692] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/include/interface_example/interface_example/msg/rosidl_generator_c__visibility_control.h\n'}
+[28.654011] (-) TimerEvent: {}
+[28.694969] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/include/interface_example/interface_example/srv/add_two_int.h\n'}
+[28.737479] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/include/interface_example/interface_example/srv/detail/add_two_int__functions.h\n'}
+[28.755195] (-) TimerEvent: {}
+[28.784718] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/include/interface_example/interface_example/srv/detail/add_two_int__struct.h\n'}
+[28.816861] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/include/interface_example/interface_example/srv/detail/add_two_int__type_support.h\n'}
+[28.849051] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/share/interface_example/environment/library_path.sh\n'}
+[28.857126] (-) TimerEvent: {}
+[28.879084] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/share/interface_example/environment/library_path.dsv\n'}
+[28.906763] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/include/interface_example/interface_example/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[28.934307] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/include/interface_example/interface_example/srv/detail/add_two_int__rosidl_typesupport_fastrtps_c.h\n'}
+[28.960638] (-) TimerEvent: {}
+[28.961753] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/include/interface_example/interface_example/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[28.994125] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/include/interface_example/interface_example/srv/detail/add_two_int__rosidl_typesupport_introspection_c.h\n'}
+[29.029618] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/include/interface_example/interface_example/srv/add_two_int.hpp\n'}
+[29.060764] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/include/interface_example/interface_example/srv/detail/add_two_int__builder.hpp\n'}
+[29.061511] (-) TimerEvent: {}
+[29.091310] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/include/interface_example/interface_example/srv/detail/add_two_int__struct.hpp\n'}
+[29.115221] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/include/interface_example/interface_example/srv/detail/add_two_int__traits.hpp\n'}
+[29.152864] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/include/interface_example/interface_example/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[29.165849] (-) TimerEvent: {}
+[29.184027] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/include/interface_example/interface_example/srv/detail/add_two_int__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[29.230149] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/include/interface_example/interface_example/srv/detail/add_two_int__rosidl_typesupport_introspection_cpp.hpp\n'}
+[29.267157] (-) TimerEvent: {}
+[29.293008] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/share/interface_example/environment/pythonpath.sh\n'}
+[29.350899] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/share/interface_example/environment/pythonpath.dsv\n'}
+[29.368297] (-) TimerEvent: {}
+[29.379668] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/local/lib/python3.10/dist-packages/interface_example-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[29.409151] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/local/lib/python3.10/dist-packages/interface_example-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[29.444279] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/local/lib/python3.10/dist-packages/interface_example-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[29.469704] (-) TimerEvent: {}
+[29.487460] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/local/lib/python3.10/dist-packages/interface_example-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[29.526797] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/local/lib/python3.10/dist-packages/interface_example/__init__.py\n'}
+[29.562529] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/local/lib/python3.10/dist-packages/interface_example/_interface_example_s.ep.rosidl_typesupport_c.c\n'}
+[29.577159] (-) TimerEvent: {}
+[29.631463] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/local/lib/python3.10/dist-packages/interface_example/_interface_example_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[29.688501] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/local/lib/python3.10/dist-packages/interface_example/_interface_example_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[29.689517] (-) TimerEvent: {}
+[29.724479] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/local/lib/python3.10/dist-packages/interface_example/interface_example_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[29.769083] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/local/lib/python3.10/dist-packages/interface_example/interface_example_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[29.791799] (-) TimerEvent: {}
+[29.805321] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/local/lib/python3.10/dist-packages/interface_example/interface_example_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[29.838577] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/local/lib/python3.10/dist-packages/interface_example/libinterface_example__rosidl_generator_py.so\n'}
+[29.893257] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/local/lib/python3.10/dist-packages/interface_example/srv/__init__.py\n'}
+[29.893714] (-) TimerEvent: {}
+[29.915288] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/local/lib/python3.10/dist-packages/interface_example/srv/_add_two_int.py\n'}
+[29.941970] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/local/lib/python3.10/dist-packages/interface_example/srv/_add_two_int_s.c\n'}
+[30.006345] (-) TimerEvent: {}
+[30.012706] (interface_example) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/local/lib/python3.10/dist-packages/interface_example/interface_example_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[30.013948] (interface_example) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/local/lib/python3.10/dist-packages/interface_example/interface_example_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[30.014266] (interface_example) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/local/lib/python3.10/dist-packages/interface_example/interface_example_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[30.014462] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/share/interface_example/srv/AddTwoInt.idl\n'}
+[30.083541] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/share/interface_example/srv/AddTwoInt.srv\n'}
+[30.107196] (-) TimerEvent: {}
+[30.143672] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/share/interface_example/srv/AddTwoInt_Request.msg\n'}
+[30.176306] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/share/interface_example/srv/AddTwoInt_Response.msg\n'}
+[30.205355] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/share/ament_index/resource_index/package_run_dependencies/interface_example\n'}
+[30.221105] (-) TimerEvent: {}
+[30.230013] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/share/ament_index/resource_index/parent_prefix_path/interface_example\n'}
+[30.279697] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/share/interface_example/environment/ament_prefix_path.sh\n'}
+[30.328993] (-) TimerEvent: {}
+[30.361802] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/share/interface_example/environment/ament_prefix_path.dsv\n'}
+[30.362253] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/share/interface_example/environment/path.sh\n'}
+[30.399637] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/share/interface_example/environment/path.dsv\n'}
+[30.429461] (-) TimerEvent: {}
+[30.454180] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/share/interface_example/local_setup.bash\n'}
+[30.483777] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/share/interface_example/local_setup.sh\n'}
+[30.529940] (-) TimerEvent: {}
+[30.532577] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/share/interface_example/local_setup.zsh\n'}
+[30.579412] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/share/interface_example/local_setup.dsv\n'}
+[30.605064] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/share/interface_example/package.dsv\n'}
+[30.635143] (-) TimerEvent: {}
+[30.646240] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/share/ament_index/resource_index/packages/interface_example\n'}
+[30.689488] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/share/interface_example/cmake/rosidl_cmake-extras.cmake\n'}
+[30.728573] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/share/interface_example/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[30.737711] (-) TimerEvent: {}
+[30.758618] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/share/interface_example/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[30.797485] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/share/interface_example/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[30.834711] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/share/interface_example/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[30.838508] (-) TimerEvent: {}
+[30.846354] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/share/interface_example/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[30.881123] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/share/interface_example/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[30.897521] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/share/interface_example/cmake/interface_exampleConfig.cmake\n'}
+[30.928104] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/share/interface_example/cmake/interface_exampleConfig-version.cmake\n'}
+[30.939418] (-) TimerEvent: {}
+[30.953207] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/share/interface_example/package.xml\n'}
+[30.989963] (interface_example) StdoutLine: {'line': b'-- Installing: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/lib/libinterface_example__rosidl_generator_c.so\n'}
+[30.990472] (interface_example) StdoutLine: {'line': b'-- Set runtime path of "/home/pdy/KDTA.ROS2/interface_example/install/interface_example/lib/libinterface_example__rosidl_generator_c.so" to ""\n'}
+[30.990699] (interface_example) StdoutLine: {'line': b'-- Installing: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/lib/libinterface_example__rosidl_typesupport_fastrtps_c.so\n'}
+[30.990907] (interface_example) StdoutLine: {'line': b'-- Set runtime path of "/home/pdy/KDTA.ROS2/interface_example/install/interface_example/lib/libinterface_example__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[30.991147] (interface_example) StdoutLine: {'line': b'-- Installing: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/lib/libinterface_example__rosidl_typesupport_introspection_c.so\n'}
+[30.991381] (interface_example) StdoutLine: {'line': b'-- Set runtime path of "/home/pdy/KDTA.ROS2/interface_example/install/interface_example/lib/libinterface_example__rosidl_typesupport_introspection_c.so" to ""\n'}
+[30.991575] (interface_example) StdoutLine: {'line': b'-- Installing: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/lib/libinterface_example__rosidl_typesupport_c.so\n'}
+[30.991766] (interface_example) StdoutLine: {'line': b'-- Set runtime path of "/home/pdy/KDTA.ROS2/interface_example/install/interface_example/lib/libinterface_example__rosidl_typesupport_c.so" to ""\n'}
+[30.991953] (interface_example) StdoutLine: {'line': b'-- Installing: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/lib/libinterface_example__rosidl_typesupport_fastrtps_cpp.so\n'}
+[31.009136] (interface_example) StdoutLine: {'line': b'-- Set runtime path of "/home/pdy/KDTA.ROS2/interface_example/install/interface_example/lib/libinterface_example__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[31.009597] (interface_example) StdoutLine: {'line': b'-- Installing: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/lib/libinterface_example__rosidl_typesupport_introspection_cpp.so\n'}
+[31.009843] (interface_example) StdoutLine: {'line': b'-- Set runtime path of "/home/pdy/KDTA.ROS2/interface_example/install/interface_example/lib/libinterface_example__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[31.010009] (interface_example) StdoutLine: {'line': b'-- Installing: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/lib/libinterface_example__rosidl_typesupport_cpp.so\n'}
+[31.010163] (interface_example) StdoutLine: {'line': b'-- Set runtime path of "/home/pdy/KDTA.ROS2/interface_example/install/interface_example/lib/libinterface_example__rosidl_typesupport_cpp.so" to ""\n'}
+[31.051560] (-) TimerEvent: {}
+[31.128267] (interface_example) StdoutLine: {'line': b"Listing '/home/pdy/KDTA.ROS2/interface_example/install/interface_example/local/lib/python3.10/dist-packages/interface_example'...\n"}
+[31.128687] (interface_example) StdoutLine: {'line': b"Compiling '/home/pdy/KDTA.ROS2/interface_example/install/interface_example/local/lib/python3.10/dist-packages/interface_example/__init__.py'...\n"}
+[31.128880] (interface_example) StdoutLine: {'line': b"Listing '/home/pdy/KDTA.ROS2/interface_example/install/interface_example/local/lib/python3.10/dist-packages/interface_example/srv'...\n"}
+[31.129046] (interface_example) StdoutLine: {'line': b"Compiling '/home/pdy/KDTA.ROS2/interface_example/install/interface_example/local/lib/python3.10/dist-packages/interface_example/srv/__init__.py'...\n"}
+[31.129206] (interface_example) StdoutLine: {'line': b"Compiling '/home/pdy/KDTA.ROS2/interface_example/install/interface_example/local/lib/python3.10/dist-packages/interface_example/srv/_add_two_int.py'...\n"}
+[31.145721] (interface_example) StdoutLine: {'line': b'-- Installing: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/lib/libinterface_example__rosidl_generator_py.so\n'}
+[31.150831] (interface_example) StdoutLine: {'line': b'-- Set runtime path of "/home/pdy/KDTA.ROS2/interface_example/install/interface_example/lib/libinterface_example__rosidl_generator_py.so" to ""\n'}
+[31.151383] (interface_example) StdoutLine: {'line': b'-- Installing: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/share/interface_example/cmake/export_interface_example__rosidl_generator_cExport.cmake\n'}
+[31.151770] (-) TimerEvent: {}
+[31.152907] (interface_example) StdoutLine: {'line': b'-- Installing: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/share/interface_example/cmake/export_interface_example__rosidl_generator_cExport-noconfig.cmake\n'}
+[31.153297] (interface_example) StdoutLine: {'line': b'-- Installing: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/share/interface_example/cmake/export_interface_example__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[31.153615] (interface_example) StdoutLine: {'line': b'-- Installing: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/share/interface_example/cmake/export_interface_example__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[31.153788] (interface_example) StdoutLine: {'line': b'-- Installing: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/share/interface_example/cmake/interface_example__rosidl_typesupport_introspection_cExport.cmake\n'}
+[31.153945] (interface_example) StdoutLine: {'line': b'-- Installing: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/share/interface_example/cmake/interface_example__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[31.154149] (interface_example) StdoutLine: {'line': b'-- Installing: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/share/interface_example/cmake/interface_example__rosidl_typesupport_cExport.cmake\n'}
+[31.154494] (interface_example) StdoutLine: {'line': b'-- Installing: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/share/interface_example/cmake/interface_example__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[31.154747] (interface_example) StdoutLine: {'line': b'-- Installing: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/share/interface_example/cmake/export_interface_example__rosidl_generator_cppExport.cmake\n'}
+[31.154900] (interface_example) StdoutLine: {'line': b'-- Installing: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/share/interface_example/cmake/export_interface_example__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[31.155038] (interface_example) StdoutLine: {'line': b'-- Installing: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/share/interface_example/cmake/export_interface_example__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[31.155215] (interface_example) StdoutLine: {'line': b'-- Installing: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/share/interface_example/cmake/interface_example__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[31.155402] (interface_example) StdoutLine: {'line': b'-- Installing: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/share/interface_example/cmake/interface_example__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[31.155587] (interface_example) StdoutLine: {'line': b'-- Installing: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/share/interface_example/cmake/interface_example__rosidl_typesupport_cppExport.cmake\n'}
+[31.155775] (interface_example) StdoutLine: {'line': b'-- Installing: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/share/interface_example/cmake/interface_example__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[31.155972] (interface_example) StdoutLine: {'line': b'-- Installing: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/share/interface_example/cmake/export_interface_example__rosidl_generator_pyExport.cmake\n'}
+[31.156181] (interface_example) StdoutLine: {'line': b'-- Installing: /home/pdy/KDTA.ROS2/interface_example/install/interface_example/share/interface_example/cmake/export_interface_example__rosidl_generator_pyExport-noconfig.cmake\n'}
+[31.185991] (interface_example) CommandEnded: {'returncode': 0}
+[31.264532] (-) TimerEvent: {}
+[31.365220] (-) TimerEvent: {}
+[31.467373] (-) TimerEvent: {}
+[31.569315] (-) TimerEvent: {}
+[31.672215] (-) TimerEvent: {}
+[31.697371] (interface_example) JobEnded: {'identifier': 'interface_example', 'rc': 0}
+[31.706492] (-) EventReactorShutdown: {}

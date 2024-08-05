@@ -1,0 +1,207 @@
+[0.292s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.292s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7865aee1a950>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7865aef4ef80>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7865aef4ef80>>, mixin_verb=('build',))
+[0.731s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.732s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.732s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.732s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.732s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.733s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.733s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pdy/KDTA.ROS2'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(msg_svr_action_interface_example) by extensions ['ignore', 'ignore_ament_install']
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(msg_svr_action_interface_example) by extension 'ignore'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(msg_svr_action_interface_example) by extension 'ignore_ament_install'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(msg_svr_action_interface_example) by extensions ['colcon_pkg']
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(msg_svr_action_interface_example) by extension 'colcon_pkg'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(msg_svr_action_interface_example) by extensions ['colcon_meta']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(msg_svr_action_interface_example) by extension 'colcon_meta'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(msg_svr_action_interface_example) by extensions ['ros']
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(msg_svr_action_interface_example) by extension 'ros'
+[0.780s] DEBUG:colcon.colcon_core.package_identification:Package 'msg_svr_action_interface_example' with type 'ros.ament_cmake' and name 'msg_svr_action_interface_example'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(opencv) by extensions ['ignore', 'ignore_ament_install']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(opencv) by extension 'ignore'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(opencv) by extension 'ignore_ament_install'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(opencv) by extensions ['colcon_pkg']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(opencv) by extension 'colcon_pkg'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(opencv) by extensions ['colcon_meta']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(opencv) by extension 'colcon_meta'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(opencv) by extensions ['ros']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(opencv) by extension 'ros'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(opencv) by extensions ['cmake', 'python']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(opencv) by extension 'cmake'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(opencv) by extension 'python'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(opencv) by extensions ['python_setup_py']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(opencv) by extension 'python_setup_py'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch02) by extensions ['ignore', 'ignore_ament_install']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch02) by extension 'ignore'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch02) by extension 'ignore_ament_install'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch02) by extensions ['colcon_pkg']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch02) by extension 'colcon_pkg'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch02) by extensions ['colcon_meta']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch02) by extension 'colcon_meta'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch02) by extensions ['ros']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch02) by extension 'ros'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch02) by extensions ['cmake', 'python']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch02) by extension 'cmake'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch02) by extension 'python'
+[0.810s] DEBUG:colcon.colcon_core.package_identification:Package 'opencv/ch02' with type 'cmake' and name 'windows'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch03) by extensions ['ignore', 'ignore_ament_install']
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch03) by extension 'ignore'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch03) by extension 'ignore_ament_install'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch03) by extensions ['colcon_pkg']
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch03) by extension 'colcon_pkg'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch03) by extensions ['colcon_meta']
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch03) by extension 'colcon_meta'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch03) by extensions ['ros']
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch03) by extension 'ros'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch03) by extensions ['cmake', 'python']
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch03) by extension 'cmake'
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch03) by extension 'python'
+[0.840s] DEBUG:colcon.colcon_core.package_identification:Package 'opencv/ch03' with type 'cmake' and name 'windows'
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch04) by extensions ['ignore', 'ignore_ament_install']
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch04) by extension 'ignore'
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch04) by extension 'ignore_ament_install'
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch04) by extensions ['colcon_pkg']
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch04) by extension 'colcon_pkg'
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch04) by extensions ['colcon_meta']
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch04) by extension 'colcon_meta'
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch04) by extensions ['ros']
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch04) by extension 'ros'
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch04) by extensions ['cmake', 'python']
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch04) by extension 'cmake'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch04) by extension 'python'
+[0.868s] DEBUG:colcon.colcon_core.package_identification:Package 'opencv/ch04' with type 'cmake' and name 'windows'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch05) by extensions ['ignore', 'ignore_ament_install']
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch05) by extension 'ignore'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch05) by extension 'ignore_ament_install'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch05) by extensions ['colcon_pkg']
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch05) by extension 'colcon_pkg'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch05) by extensions ['colcon_meta']
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch05) by extension 'colcon_meta'
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch05) by extensions ['ros']
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch05) by extension 'ros'
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch05) by extensions ['cmake', 'python']
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch05) by extension 'cmake'
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch05) by extension 'python'
+[0.935s] DEBUG:colcon.colcon_core.package_identification:Package 'opencv/ch05' with type 'cmake' and name 'windows'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch07) by extensions ['ignore', 'ignore_ament_install']
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch07) by extension 'ignore'
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch07) by extension 'ignore_ament_install'
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch07) by extensions ['colcon_pkg']
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch07) by extension 'colcon_pkg'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch07) by extensions ['colcon_meta']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch07) by extension 'colcon_meta'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch07) by extensions ['ros']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch07) by extension 'ros'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch07) by extensions ['cmake', 'python']
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch07) by extension 'cmake'
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch07) by extension 'python'
+[1.057s] DEBUG:colcon.colcon_core.package_identification:Package 'opencv/ch07' with type 'cmake' and name 'windows'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch08) by extensions ['ignore', 'ignore_ament_install']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch08) by extension 'ignore'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch08) by extension 'ignore_ament_install'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch08) by extensions ['colcon_pkg']
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch08) by extension 'colcon_pkg'
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch08) by extensions ['colcon_meta']
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch08) by extension 'colcon_meta'
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch08) by extensions ['ros']
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch08) by extension 'ros'
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch08) by extensions ['cmake', 'python']
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch08) by extension 'cmake'
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch08) by extension 'python'
+[1.112s] DEBUG:colcon.colcon_core.package_identification:Package 'opencv/ch08' with type 'cmake' and name 'windows'
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch09) by extensions ['ignore', 'ignore_ament_install']
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch09) by extension 'ignore'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch09) by extension 'ignore_ament_install'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch09) by extensions ['colcon_pkg']
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch09) by extension 'colcon_pkg'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch09) by extensions ['colcon_meta']
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch09) by extension 'colcon_meta'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch09) by extensions ['ros']
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch09) by extension 'ros'
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch09) by extensions ['cmake', 'python']
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch09) by extension 'cmake'
+[1.150s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch09) by extension 'python'
+[1.150s] DEBUG:colcon.colcon_core.package_identification:Package 'opencv/ch09' with type 'cmake' and name 'windows'
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch11) by extensions ['ignore', 'ignore_ament_install']
+[1.152s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch11) by extension 'ignore'
+[1.152s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch11) by extension 'ignore_ament_install'
+[1.152s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch11) by extensions ['colcon_pkg']
+[1.152s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch11) by extension 'colcon_pkg'
+[1.152s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch11) by extensions ['colcon_meta']
+[1.152s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch11) by extension 'colcon_meta'
+[1.152s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch11) by extensions ['ros']
+[1.153s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch11) by extension 'ros'
+[1.153s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch11) by extensions ['cmake', 'python']
+[1.153s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch11) by extension 'cmake'
+[1.172s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/ch11) by extension 'python'
+[1.172s] DEBUG:colcon.colcon_core.package_identification:Package 'opencv/ch11' with type 'cmake' and name 'windows'
+[1.173s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/data) by extensions ['ignore', 'ignore_ament_install']
+[1.173s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/data) by extension 'ignore'
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/data) by extension 'ignore_ament_install'
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/data) by extensions ['colcon_pkg']
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/data) by extension 'colcon_pkg'
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/data) by extensions ['colcon_meta']
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/data) by extension 'colcon_meta'
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/data) by extensions ['ros']
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/data) by extension 'ros'
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/data) by extensions ['cmake', 'python']
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/data) by extension 'cmake'
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/data) by extension 'python'
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/data) by extensions ['python_setup_py']
+[1.192s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/data) by extension 'python_setup_py'
+[1.192s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/first) by extensions ['ignore', 'ignore_ament_install']
+[1.192s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/first) by extension 'ignore'
+[1.192s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/first) by extension 'ignore_ament_install'
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/first) by extensions ['colcon_pkg']
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/first) by extension 'colcon_pkg'
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/first) by extensions ['colcon_meta']
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/first) by extension 'colcon_meta'
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/first) by extensions ['ros']
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/first) by extension 'ros'
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/first) by extensions ['cmake', 'python']
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/first) by extension 'cmake'
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(opencv/first) by extension 'python'
+[1.203s] DEBUG:colcon.colcon_core.package_identification:Package 'opencv/first' with type 'cmake' and name 'helloWorld'
+[1.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.277s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.277s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.282s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/pdy/kdta_ws/install
+[1.287s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 373 installed packages in /opt/ros/humble
+[1.349s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.509s] ERROR:colcon:colcon build: Duplicate package names not supported:
+- windows:
+  - opencv/ch02
+  - opencv/ch03
+  - opencv/ch04
+  - opencv/ch05
+  - opencv/ch07
+  - opencv/ch08
+  - opencv/ch09
+  - opencv/ch11
